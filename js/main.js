@@ -187,10 +187,11 @@ function search(){
 function doginfo(e){
     let value = parseInt(e)
     let html = ''
+    
     html += '<section id="doginfo">'
     html += '<div class="wrapper">'
     html += '<section  id="dicontent">'
-    html += `<div id="lcontent"><img src="${data[value].image}"><button>Adopt Me</button></div>`
+    html += `<div id="lcontent"><img src="${data[value].image}"><button onclick=(adopt())>Adopt Me</button></div>`
     html += '<section id="rcontent">'
     html += '<div id="diheader">'
     html += `<div id="status"><h2>${data[value].name}</h2><p>${data[value].vacinated}</p><p>${data[value].sn}</p></div>`
@@ -222,6 +223,7 @@ function doginfo(e){
     html += '</section>'
     html += '</div>'
     html += '</section>'
+
     main.innerHTML = html;
 }
 
@@ -235,7 +237,7 @@ function adopt(){
         html += '<p onclick="adopt()">The first step in adopting a dog is... Choosing a Dog! So Go to the home page first to take our quiz or use the advanced search to fill out what you already want in a dog.</p>'
         html += '<div id="aprogress">'
         html +='<img src="../images/hospice.png">'
-        html += '<progress value="0" max="5"></progress>'
+        html += '<progress value="1" max="5"></progress>'
         html += '<img src="../images/home.png">'
         html += '</div>'
         html += '</section>'
@@ -253,7 +255,7 @@ function adopt(){
         html += '<div id="aprogress">'
         html += '<div id="txt" onclick="adopt()" ><p><img src="../images/txt.png">Dogily_Adoption_Papers.pdf</p></div>'
         html += '<img src="../images/hospice.png">'
-        html += '<progress value="1" max="5"></progress>'
+        html += '<progress value="2" max="5"></progress>'
         html += '<img src="../images/home.png">'
         html += '</div>'
         html += '</section>'
@@ -270,7 +272,7 @@ function adopt(){
         html += '<p onclick="adopt()"> You are now able to have a one on one interview with us. We will be contacting you through the phone and email provided you provided us.</p>'
         html += '<div id="aprogress">'
         html +='<img src="../images/hospice.png">'
-        html += '<progress value="2" max="5"></progress>'
+        html += '<progress value="3" max="5"></progress>'
         html += '<img src="../images/home.png">'
         html += '</div>'
         html += '</section>'
@@ -287,7 +289,7 @@ function adopt(){
         html += '<p onclick="adopt()">We have deemed you capable of taking care of your precious pal. An email has been sent to you the home your new pal will be waiting for you! </p>'
         html += '<div id="aprogress">'
         html +='<img src="../images/hospice.png">'
-        html += '<progress value="3" max="5"></progress>'
+        html += '<progress value="4" max="5"></progress>'
         html += '<img src="../images/home.png">'
         html += '</div>'
         html += '</section>'
@@ -305,7 +307,7 @@ function adopt(){
         html += "<p onclick='adopt()'>Congratulations! You've just adopted your pal, have this certificate showing your ownership of your new animal. Make sure to share with your friends on the new friend you made!</p>"
         html += '<div id="aprogress">'
         html +='<img src="../images/hospice.png">'
-        html += '<progress value="4" max="5"></progress>'
+        html += '<progress value="5" max="5"></progress>'
         html += '<img src="../images/home.png">'
         html += '</div>'
         html += '</section>'
