@@ -1,0 +1,498 @@
+p,h2,h3,li,button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4D6CFA;
+}
+h1{
+    font-family: 'Museo Sans For Dell', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 90px;
+    color: #4D6CFA;
+}
+
+
+
+button{
+    border: none;
+    background: none;
+}
+
+.wrapper{
+    margin: 0 100px;
+}
+
+nav h1{
+    font-weight: bold;
+    display: inline;
+}
+nav ul{
+    margin: 20px 0 15px;
+    justify-content: center;    
+    display: flex;
+}
+nav li{
+    font-size: 22px;
+    margin: 0 20px;
+}
+
+#main{
+    position: absolute;
+    bottom: 0;
+    top: 145px;
+    width: 100%;
+    background: url(../images/prance-8.png) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+}
+nav{
+    text-align: center;
+}
+#quizbtn{
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0 30px;
+    background-color: #4D6CFA;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+}
+#qcontent{
+    background: #4D6CFA;
+    padding: 0 0 50px 0;
+}
+
+#dogquiz h2{
+    margin: 15px 0 30px;
+    color: #ffffff;
+    font-size: 45px;
+}
+#dogquiz{
+    position: absolute;
+    bottom: 0;
+    top: 145px;
+    width: 100%;
+
+    background-color: #4D6CFA;
+    text-align: center;
+}
+
+#boychoice, #girlchoice{
+    background-color: #ffffff;
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    margin: 10px 20px;
+
+    opacity: .5;
+}
+#boychoice img, #girlchoice img{
+    width: 180px;
+    height: 180px;
+    margin: 0 0 10px 0;
+}
+#boychoice h3, #girlchoice h3{
+    background-color: #637FFF; 
+    color: #ffffff;
+    width: 55%;
+    position: relative;
+
+    left: -20px;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 0 40px 5px;
+}
+
+.right{
+    position: absolute;
+    top: 200px;
+    right: 10px;
+}
+.right img{
+    width: 50px;
+    height: 90px;
+}
+.left{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+.left img{
+    width: 50px;
+    height: 90px;
+}
+
+#youngchoice, #adultchoice, #oldchoice {
+    background-color: #ffffff;
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    margin: 10px 20px;
+
+    opacity: .5;
+}
+#youngchoice img, #adultchoice img, #oldchoice img{
+    width: 180px;
+    height: 180px;
+    margin: 0 0 10px 0;
+}
+#youngchoice h3, #adultchoice h3, #oldchoice h3{
+    background-color: #637FFF; 
+    color: #ffffff;
+    width: 55%;
+    position: relative;
+
+    left: -20px;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 0 40px 5px;
+}
+
+#smallchoice, #mediumchoice, #largechoice {
+    background-color: #ffffff;
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    margin: 10px 20px;
+
+    opacity: .5;
+}
+#smallchoice img, #mediumchoice img, #largechoice img{
+    width: 180px;
+    height: 180px;
+    margin: 0 0 10px 0;
+}
+#smallchoice h3, #mediumchoice h3, #largechoice h3{
+    background-color: #637FFF; 
+    color: #ffffff;
+    width: 55%;
+    position: relative;
+
+    left: -20px;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 0 40px 5px;
+}
+
+#choiceone,#choicetwo,#choicethree,#choicefour,#choicefive,#choicesix,#choiceseven,#choiceeight {
+    background-color: #ffffff;
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    margin: 10px 20px;
+
+    opacity: .5;
+}
+#choiceone h3,#choicetwo h3,#choicethree h3,#choicefour h3,#choicefive h3,#choicesix h3,#choiceseven h3,#choiceeight h3{
+    background-color: #637FFF; 
+    color: #ffffff;
+    width: 65%;
+    position: relative;
+
+    left: -20px;
+    bottom: -100px;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 0 40px 5px;
+}
+
+#dogbreed img{
+    width: 100px;
+    height: 100px;
+}
+#dogbreed{
+    background: url(../images/timmy.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+    width: 50%;
+    height: 400px;;
+    margin: 0 auto 100px;
+}
+#dogbreed button{
+    position: relative;
+    top: 370px;
+}
+#dogtype h3{
+    color: #ffffff;
+    font-size: 40px;
+    margin: 20px 0;
+}
+#dogbreed button, #resultsbuttons button{
+    color: #ffffff;
+    border: solid #1635C3;
+    background: #637FFF;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+#resultsbuttons button{
+    margin: 0 50px;
+}
+
+#searchbar{
+    background: #4D6CFA;
+}
+#searchbar input{
+    margin: 7px 10px;
+}
+
+#scontent{
+    text-align: center;
+}
+
+#scontent article{
+    display: inline-block;
+    width: 25%; 
+    height: 450px;
+    background: url(../images/timmy.jpg) center;
+    background-size: cover;
+    margin: 30px 50px;
+}
+.dog1 #dname{
+    background: #4D6CFA;
+}
+.dog1 h2{
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+#shovercontent{
+    padding: 20px 0;
+    height: 350px;
+    background:rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+#shovercontent:hover{
+    transition: .5s;
+    opacity: 1;
+}
+#shovercontent #shc1{
+    margin:  0 0 20px 0;
+}
+#shovercontent progress{
+    color: #4D6CFA;
+    margin: 5px 0;
+    width: 90%;
+    height: 50px;
+}
+
+#shovercontent p{
+    color: #ffffff;
+    text-align: left;
+    float: left;
+    margin: 0 20px;
+}
+#shovercontent p:nth-of-type(2n){
+    float: right;
+    color: #ffffff;
+    text-align: right;
+    margin: 0 20px;
+}
+#shovercontent button{
+    background: #637FFF;
+    color: #ffffff;
+    border: #1635C3 solid 2px;
+    border-radius: 25px;
+    padding: 5px 40px;
+    font-size: 30px;
+}
+
+#doginfo{
+    position: absolute;
+    bottom: 0;
+    top: 145px;
+    width: 100%;
+    background: #4D6CFA;
+}
+
+#dicontent{
+    margin: 30px 0 0 0;
+    background: #ffffff;  
+    height: 100%;  
+    padding: 0 0 20px 0;
+}
+
+#dicontent img{
+    width: 400px;
+    height: 350px;
+    margin: 0 40px 20px;
+}
+
+#lcontent{
+    display: inline-block;
+    width: calc(35%);
+    text-align: center;
+    margin-bottom: 50px;
+}
+#lcontent button{
+    width: 50%;
+    font-size: 30px;
+    display: inline-block;
+    color: white;
+    background: #637FFF;
+    border: #1635C3 solid 2px;
+    border-radius: 26px;
+}
+#rcontent{
+    display: inline-block;
+    width: calc(65% - 80px);
+    margin: 40px 0 0 0;
+    padding: 0 40px;
+}
+#dicontent h2{
+    font-size: 50px;
+    color: #1635C3;
+    font-weight: bold;
+}
+#status p{
+    color: white;
+    background: #637FFF;
+    border: #1635C3 solid 2px;
+    border-radius: 26px;
+    padding: 2px 30px;
+    margin: 0 20px;
+}
+#status2{
+    display: flex;
+    justify-content: space-between;
+}
+#status2 p{
+    color: black;
+}
+#diheader p, #diheader h2{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#dicontent h3{
+font-size: 30px;
+margin-bottom: 10px;
+}
+#dicontent p{
+font-size: 20px;
+}
+#distats #diprogress{
+    width: calc(50% - 80px);
+    display: inline-block;
+    padding: 10px 40px 10px 0;
+}
+#diprogress p{
+    display: inline-block;
+}
+#diprogress progress{
+    width: 100%;
+    height: 50px;
+}
+
+#diprogress p{
+    color: black;
+    text-align: left;
+    float: left;
+}
+#diprogress p:nth-of-type(2n){
+    color: black;
+    float: right;
+    text-align: right;
+}
+
+#didescription p{
+    color: black;
+    padding: 10px 0 0 0;
+}
+
+#adopt{
+    position: absolute;
+    bottom: 0;
+    top: 145px;
+    width: 100%;
+    background: #4D6CFA;
+}
+
+#acontent{
+    margin: 30px 0 0 0;
+    background: #ffffff;  
+    height: 100%;  
+    padding: 0 0 20px 0;
+
+    text-align: center
+}
+#acontent h2{
+    color: #4D6CFA;
+    font-size: 50px;
+    padding: 0 0 25px;
+}
+#acontent p{
+    color: black;
+    width: 30%;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 0 0 50px;
+}
+#acontent img{
+    width: 100px;
+    height: 100px;
+}
+#acontent progress{
+    width: 75%;
+    height: 80px;
+    margin: 0 20px;
+}
+#aprogress{
+    display: inline-block;
+    width: 100%;
+}
+#txt p{
+    padding: 0 0 5px 0;
+    border-bottom: black solid 2px;
+}
+#txt img{
+    width: 64px;
+    height: 85px;
+    margin: 0 20px;
+}
+#txt{
+    padding: 0 0 10px 0;
+}
+
+#about{    position: absolute;
+    bottom: 0;
+    top: 145px;
+    width: 100%;
+    background: #4D6CFA;
+}
+
+#abcontent{    
+    margin: 30px 0 0 0;
+    background: #ffffff;  
+    height: 100%;  
+    padding: 0 0 20px 0;
+    display: inline-block;
+    text-align: center}
+
+#ableft {
+    width: 50%;
+    display: inline-block;
+}
+#abright{
+    display: inline-block;
+    width: 50%
+}
+#abright img{
+    width: 400px;
+}
+#abcontent h2{
+    color: #4D6CFA;
+    font-size: 50px;
+    padding:  70px 50px;
+    font-weight: bold;
+}
+#abcontent p{
+    color: black;
+    font-size: 20px;
+    padding: 0 50px;
+}
